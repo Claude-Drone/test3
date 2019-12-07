@@ -1,0 +1,77 @@
+#titre{
+    color: white;
+}
+body{
+    background-color:rgb(150, 10, 10);
+    color: white;
+}
+.inp{
+    font-size: 34px;
+}
+ul{   
+    font-size: 30px;
+    display: flex;
+justify-content: space-evenly;
+    
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+   color: white; 
+}
+ul li a:hover{
+color: red;
+}
+.pic0{
+    width:60PX;
+    height: 60px;
+}
+.pic1{
+    width: 100%;
+    height: 500px;
+}
+.pic2{
+    width: 100%;
+    height: 500px;
+}
+.pic3{
+    width: 100%;
+    height: 500px;
+}
+.cc {
+    width: 250px;
+    height: 250px;
+}
+.test{
+    width:80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-around;
+}
+#titre1{
+    color: rgb(69, 69, 189);
+}
+.pic7{
+    width: 100%;
+    height: 500px;
+}
+.cover{
+    width: 100%;
+    height: 500px;
+    background-image: url(../picture7.png);
+    font-size: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.test img {
+    margin: 20px;
+    border-radius: 10px;
+}
+ul img{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -300px;
+}
